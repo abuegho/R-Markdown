@@ -23,6 +23,7 @@ In order to streamline the process, I may have to add another column to the data
 ##What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
 The deliverables published on Github would include code that I used to analyse the data, key findings, visual representations, slides, and final conclusions.
 
+thanks
 
 
 
