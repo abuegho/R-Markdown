@@ -5,9 +5,6 @@ date: "18 December 2017"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 ##What is the problem you want to solve?
 I would like to find out correlations, commonalities, and trends in citations, specifically brought by accidents. Looking at different factors in play, I hope to gain insight into forecasting accidents or violations based on location, car type, and time of the year.
 
