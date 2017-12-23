@@ -23,6 +23,8 @@ Initially, I will be cleaning up the data, and sort it out chronologically. Some
 * other outliers that may emerge as the data is cleaned
 In order to streamline the process, I may have to add another column to the data which would group similar violations into one family. This would facilitate the inferential process.
 
+This data set is massive. So a lot of wrangling will be required. I will be utilising dplyr's data manipulation functions to filter and mutate variables and observations.
+
 ## What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
 
 The deliverables published on Github would include code that I used to analyse the data, key findings, visual representations, slides, and final conclusions.
