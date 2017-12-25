@@ -2,7 +2,9 @@
 title: "Capstone"
 author: "Fadi"
 date: "18 December 2017"
-output: html_document
+output: 
+  html_document:
+    theme: journal
 ---
 
 ## What is the problem you want to solve?
