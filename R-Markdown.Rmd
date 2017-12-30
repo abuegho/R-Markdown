@@ -11,6 +11,7 @@ output:
 
 I would like to find out correlations, commonalities, and trends in citations, specifically brought by accidents. Looking at different factors in play, I hope to gain insight into forecasting accidents or violations based on location, car type, and time of the year.
 
+
 ## Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
 
 Interpretations from the data analysis would be useful for police department, insurance companies operating in the county, or even the Department of Motor Vehicles when it comes to promoting safer driving practices.
@@ -20,7 +21,7 @@ I have acquired a .csv file from data.gov
 
 <https://catalog.data.gov/dataset/traffic-violations-56dda>
 
-This is a daily record of all traffic violations in Montgomery County in the State of Maryland. The variables could be categorised in the following main groups:
+This is a daily record of all traffic violations in Montgomery County in the State of Maryland. The variables could be categorised in three main subgroups:
 
 Time & Location| Accident Details  |  Driver & Vehicle Details |
 --------| -------------------------|---------------------------|
@@ -35,21 +36,29 @@ Work Zone | Belts  |  Gender  |
 .       | Charge | Driver State  |
 .     |  Commercial License |   |
 
+Other variables may be easily ommitted as their observations are somewhat inconsequential to the analysis:
 
+Agency, SubAgency, HAZMAT, and few others..
 
 ## In brief, outline your approach to solving this problem (knowing that this might change later).
 
-Initially, I will be cleaning up the data, and sort it out chronologically. Some of the factors are irrelevant, such as:
+In order to streamline the process, I may have to add another column to the data which would group similar violations into one family. This would facilitate the inferential process.
+
+I will also be converting Yes/No observations to binary outputs, such as most of the observations in "Accident Details" subgroup.
+
+This data set is massive. So a lot of wrangling will be required. I will be utilising dplyr's data manipulation functions to filter and mutate variables and observations. Some substitution will be required in order to streamline the data further.
+
+I will be cleaning up the data, and sort it out chronologically. Some of the factors are irrelevant, such as:
 * non-automobile violations
 * extremely rare events like HAZMAT-related accidents
 * other outliers that may emerge as the data is cleaned
-In order to streamline the process, I may have to add another column to the data which would group similar violations into one family. This would facilitate the inferential process.
+* Other observations that carry NA values amongst essential variables in the "Driver & Vehicle Details" subgroup 
 
-This data set is massive. So a lot of wrangling will be required. I will be utilising dplyr's data manipulation functions to filter and mutate variables and observations.
+A few intermediary steps may include segregating the dataset by years and/or quarters to facilitate the analysis.
 
 ## What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
 
-The deliverables published on Github would include code that I used to analyse the data, key findings, visual representations, slides, and final conclusions.
+The deliverables published on Github would include code that I used to analyse the data, key findings, visual representations, slides, and final remarks regarding inferences to be made.
 
 
 
