@@ -20,7 +20,21 @@ I have acquired a .csv file from data.gov
 
 <https://catalog.data.gov/dataset/traffic-violations-56dda>
 
-This is a daily record of all traffic violations in Montgomery County in the State of Maryland.
+This is a daily record of all traffic violations in Montgomery County in the State of Maryland. The variables could be categorised in the following main groups:
+
+Time & Location| Accident Details  |  Driver & Vehicle Details |
+--------| -------------------------|---------------------------|
+Date of Stop | Description|  Vehicle Type|
+Time of Stop | Accident  |  Year  |
+Location |  Contributed to Accident | Make  |
+Lattitude | Personal Injury | Model |
+Longitude | Property Damage | Colour  |
+Geolocation | Fatal   | Race  |
+ Work Zone         | Belts  |  Gender  |
+   .         | Alcohol | Driver City |
+     .       | Charge | Driver State  |
+       .     |  Commercial License |   |
+
 
 ## In brief, outline your approach to solving this problem (knowing that this might change later).
 
