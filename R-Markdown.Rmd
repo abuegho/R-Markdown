@@ -30,10 +30,10 @@ Location |  Contributed to Accident | Make  |
 Lattitude | Personal Injury | Model |
 Longitude | Property Damage | Colour  |
 Geolocation | Fatal   | Race  |
- Work Zone | Belts  |  Gender  |
-   .         | Alcohol | Driver City |
-     .       | Charge | Driver State  |
-       .     |  Commercial License |   |
+Work Zone | Belts  |  Gender  |
+.         | Alcohol | Driver City |
+.       | Charge | Driver State  |
+.     |  Commercial License |   |
 
 
 
