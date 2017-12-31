@@ -1,7 +1,7 @@
 ---
-title: "Capstone"
+title: "Capstone Project Proposal"
 author: "Fadi"
-date: "18 December 2017"
+date: "31 December 2017"
 output: 
   html_document:
     theme: journal
@@ -10,6 +10,8 @@ output:
 ## What is the problem you want to solve?
 
 I would like to find out correlations, commonalities, and trends in citations, specifically brought by accidents. Looking at different factors in play, I hope to gain insight into forecasting accidents or violations based on location, car type, and time of the year.
+
+The motivation behind this project is to find underlying root causes and conditions for accidents and traffic violation. Once that is unveiled, I am hoping to make effective recommendations based on empirical findings that would lessen frequency of such traffic mishaps.
 
 
 ## Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
