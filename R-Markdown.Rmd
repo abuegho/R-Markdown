@@ -11,7 +11,7 @@ output:
 
 I would like to find out correlations, commonalities, and trends in citations, specifically brought by accidents. Looking at different factors in play, I hope to gain insight into forecasting accidents or violations based on location, car type, and time of the year.
 
-The motivation behind this project is to find underlying root causes and conditions for accidents and traffic violation. Once that is unveiled, I am hoping to make effective recommendations based on empirical findings that would lessen frequency of such traffic mishaps.
+The motivation behind this project is to find underlying root causes and conditions for accidents and traffic violation. Once unveiled, I am hoping to make effective recommendations based on empirical findings that would lessen frequency of such traffic mishaps.
 
 
 ## Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
@@ -46,9 +46,9 @@ Agency, SubAgency, HAZMAT, and few others..
 
 In order to streamline the process, I may have to add another column to the data which would group similar violations into one family. This would facilitate the inferential process.
 
-I will also be converting Yes/No observations to binary outputs, such as most of the observations in "Accident Details" subgroup.
+I will also be converting Yes/No observations to binary outputs, as in most of the observations in the "Accident Details" subgroup.
 
-This data set is massive. So a lot of wrangling will be required. I will be utilising dplyr's data manipulation functions to filter and mutate variables and observations. Some substitution will be required in order to streamline the data further.
+This data set is massive. So a lot of wrangling will be required. I will be utilising dplyr's data manipulation functions to filter and mutate observations and variables. Some substitution will be required in order to streamline the data further.
 
 I will be cleaning up the data, and sort it out chronologically. Some of the factors are irrelevant, such as:
 * non-automobile violations
